@@ -31,4 +31,6 @@ body {
         url(../img/hero.jpg);
     background-size: cover;
     background-image: top;
+
+    clip-path: polygon(0 0, 100% 0, 100% -80%, -100% -100%); /* fot geometric figures */
 }
